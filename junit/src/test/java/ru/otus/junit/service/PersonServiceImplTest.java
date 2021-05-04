@@ -17,7 +17,6 @@ class PersonServiceImplTest {
 
     @Mock
     private PersonDao personDao;
-
     private PersonService personService;
 
     @BeforeEach
