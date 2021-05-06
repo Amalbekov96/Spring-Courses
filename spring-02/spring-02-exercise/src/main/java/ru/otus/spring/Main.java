@@ -7,7 +7,8 @@ import org.springframework.context.annotation.Configuration;
 import ru.otus.spring.domain.Person;
 import ru.otus.spring.service.PersonService;
 
-@SpringBootApplication
+@Configuration
+@ComponentScan
 public class Main {
 
     public static void main(String[] args) {
