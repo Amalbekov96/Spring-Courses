@@ -1,7 +1,10 @@
 package ru.otus.spring.domain;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.Configuration;
 
 public class Person {
+
 
     private String name;
     private int age;
