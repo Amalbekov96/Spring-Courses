@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/advanced-config-class-work/advanced-config-class-work.iml" filepath="$PROJECT_DIR$/advanced-config-class-work/advanced-config-class-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced-config-class-work/application-events-demo/application-events-demo.iml" filepath="$PROJECT_DIR$/advanced-config-class-work/application-events-demo/application-events-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced-config-class-work/beans-lifecycle-demo/beans-lifecycle-demo.iml" filepath="$PROJECT_DIR$/advanced-config-class-work/beans-lifecycle-demo/beans-lifecycle-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced-config-class-work/beans-scopes-demo/beans-scopes-demo.iml" filepath="$PROJECT_DIR$/advanced-config-class-work/beans-scopes-demo/beans-scopes-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced-config-class-work/conditional-and-profiles-demo/conditional-and-profiles-demo.iml" filepath="$PROJECT_DIR$/advanced-config-class-work/conditional-and-profiles-demo/conditional-and-profiles-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-05.iml" filepath="$PROJECT_DIR$/.idea/spring-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced-config-class-work/test-configuration-demo/test-configuration-demo.iml" filepath="$PROJECT_DIR$/advanced-config-class-work/test-configuration-demo/test-configuration-demo.iml" />
+    </modules>
+  </component>
+</project>
