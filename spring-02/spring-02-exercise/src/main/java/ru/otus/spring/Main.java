@@ -25,7 +25,7 @@ public class Main {
 //    @Value("${message.instructions}")
 //    public static String instructions;
 
-    @Value("${message.greating}")
+
     public void setNameStatic(String name){
         Main.greating = name;
     }

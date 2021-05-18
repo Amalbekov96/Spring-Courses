@@ -1,5 +1,4 @@
 package com.example.demo.Service;
 
-public class UserServiceImpl {
-
+public class RequestHistoryService {
 }
