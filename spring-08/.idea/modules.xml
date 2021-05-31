@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-projects/demo-projects.iml" filepath="$PROJECT_DIR$/demo-projects/demo-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-projects/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/demo-projects/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-class-work.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-class-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-exercise/orm-exercise.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-exercise/orm-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-solution-01/orm-solution-01.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-solution-01/orm-solution-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-solution-02/orm-solution-02.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-solution-02/orm-solution-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-solution-03/orm-solution-03.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-solution-03/orm-solution-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-solution-04/orm-solution-04.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-solution-04/orm-solution-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-solution-05/orm-solution-05.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-solution-05/orm-solution-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-class-work/orm-solution-final/orm-solution-final.iml" filepath="$PROJECT_DIR$/orm-class-work/orm-solution-final/orm-solution-final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-08.iml" filepath="$PROJECT_DIR$/.idea/spring-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-projects/spring-jdbc-demo/spring-jdbc-demo.iml" filepath="$PROJECT_DIR$/demo-projects/spring-jdbc-demo/spring-jdbc-demo.iml" />
+    </modules>
+  </component>
+</project>

@@ -9,7 +9,9 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 public class EMail {
+    @Id
     private long id;
     private String email;
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="orm-exercise" />
+        <module name="orm-solution-04" />
+        <module name="orm-solution-03" />
+        <module name="orm-solution-05" />
+        <module name="orm-solution-02" />
+        <module name="orm-solution-01" />
+        <module name="orm-solution-final" />
+        <module name="mybatis-demo" />
+        <module name="spring-jdbc-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-projects" target="1.5" />
+      <module name="mybatis-demo" target="11" />
+      <module name="orm-class-work" target="1.5" />
+      <module name="orm-exercise" target="11" />
+      <module name="orm-solution-01" target="11" />
+      <module name="orm-solution-02" target="11" />
+      <module name="orm-solution-03" target="11" />
+      <module name="orm-solution-04" target="11" />
+      <module name="orm-solution-05" target="11" />
+      <module name="orm-solution-final" target="11" />
+      <module name="spring-jdbc-demo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis-demo" options="-parameters" />
+      <module name="orm-exercise" options="-parameters" />
+      <module name="orm-solution-01" options="-parameters" />
+      <module name="orm-solution-02" options="-parameters" />
+      <module name="orm-solution-03" options="-parameters" />
+      <module name="orm-solution-04" options="-parameters" />
+      <module name="orm-solution-05" options="-parameters" />
+      <module name="orm-solution-final" options="-parameters" />
+      <module name="spring-jdbc-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
