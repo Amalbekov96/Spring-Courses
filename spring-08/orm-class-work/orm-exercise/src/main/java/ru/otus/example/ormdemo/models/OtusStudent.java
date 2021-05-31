@@ -8,7 +8,9 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 public class OtusStudent {
+    @Id
     private long id;
     private String name;
 
