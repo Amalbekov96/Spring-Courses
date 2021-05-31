@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -25,6 +26,10 @@ public class Accounts {
     @Column(name = "amount")
     private String amount;
 
+    @OneToMany(targetEntity = Requests.class, cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "account_id")
+    private List<Requests> requests;
+
     public long getId() {
         return id;
     }
@@ -43,6 +48,14 @@ public class Accounts {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public List<Requests> getRequests() {
+        return requests;
+    }
+
+    public void setRequests(List<Requests> requests) {
+        this.requests = requests;
     }
 
     public void setAccount(String account) {

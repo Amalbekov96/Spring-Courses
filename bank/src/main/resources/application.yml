@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/Bank
     username: postgres
-    password: Dataui
+    password: Dataui2021
 
   jpa:
     generate-ddl: true

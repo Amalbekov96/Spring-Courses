@@ -20,9 +20,21 @@ public class Suppliers {
     @Column(name = "name", nullable = false, length = 30)
     private String name;
 
-    @OneToMany(targetEntity = Accounts.class, cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+    @OneToMany(targetEntity = Accounts.class, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "supplier_id")
     private List<Accounts> accounts;
+
+    @OneToMany(targetEntity = Requests.class, cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "supplier_id")
+    private List<Requests> requests;
+
+    public List<Requests> getRequests() {
+        return requests;
+    }
+
+    public void setRequests(List<Requests> requests) {
+        this.requests = requests;
+    }
 
     public long getId() {
         return id;
